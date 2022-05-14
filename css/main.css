@@ -45,6 +45,7 @@ h1,h2,h3,h4,h5,h6{font-family:var(--title-font)}
 a{color:var(--wp-link-color);text-decoration:none;transition:all .1s linear}
 a:focus,a:hover{color:var(--wp-link-hover)}
 input{font-family:var(--body-font)}
+hr{height:1px;margin-bottom:40px;color:rgb(255,255,255,.2)}
 img{height:auto;max-width:100%;vertical-align:middle}
 .screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px!important;width:1px!important;overflow:hidden}
 .wp-icon{display:inline-block;height:1.5rem;vertical-align:middle;width:1.5rem;fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
@@ -388,8 +389,7 @@ a.comment-reply{margin:0 10px 0 0}
 #header-ad{margin-top:35px}
 #footer-ad{ margin-bottom: 35px}
 .post-ad{margin-bottom:35px}
-.post-related-ad{background-color:var(--wp-white);padding-top:35px}
-a.ads-here{position:relative;display:flex;align-items:center;justify-content:center;height:78px;background-color:#fff;font-size:15px;color:rgba(155,155,155,.5);font-weight:600;font-style:italic;margin:0;border-top:1px solid #000;border-bottom:1px solid #000}
+.post-related-ad{background-color:var(--wp-white);padding-top:30px}
 
 /* responsive */
 @media (min-width:544px){
