@@ -399,7 +399,7 @@ a.comment-reply{margin:0 10px 0 0}
 #header-ad{margin-top:35px}
 #footer-ad{ margin-bottom: 35px}
 .post-ad{margin-bottom:35px}
-.post-related-ad{background-color:var(--wp-white);padding-top:30px}
+.post-related-ad{background-color:var(--wp-white);padding: 13px 29px 4px 29px !important;}
 
 /* responsive */
 @media (min-width:544px){
