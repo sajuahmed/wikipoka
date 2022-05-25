@@ -238,7 +238,7 @@ img{height:auto;max-width:100%;vertical-align:middle}
 .post-author-title{display:inline-block;overflow:hidden;font-size:18px;font-weight:700;color:var(--wp-white);margin:7px 0 3px;}
 .post-author-title a{color:var(--wp-white);transition:color .17s}
 .post-author-title a:hover{color:var(--wp-link-color)}
-.post-author-desc{display:block;overflow:hidden;font-size:17px;font-weight:500;line-height:1.3em;color:var(--wp-white);}
+.post-author-desc{display:block;overflow:hidden;font-size:16px;font-weight:500;line-height:1.5625;color:var(--wp-white);}
 @media screen and (max-width:440px){
   .single-author-box{text-align:center;padding:20px}
   .single-author-box .post-author-avatar{display:table;float:none;margin:0 auto 10px}
@@ -359,6 +359,9 @@ a.comment-reply{margin:0 10px 0 0}
 @media (min-width:320px){
   #footer .container .site-pages ul{-webkit-columns:2;-moz-columns:2;columns:2}
 }
+
+/* cookie_consent */
+.cookie-choices-info{top:auto!important;bottom:0}
 
 /* contact_form */
 .wp-contact-form{display:flex;flex-direction:column;justify-content:center;align-content:center}
